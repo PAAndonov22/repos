@@ -1,1 +1,1 @@
-<p text-align="center">sex</p>
+<p align="center">sex</p>
