@@ -1,0 +1,143 @@
+#h1{
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  animation: h1an 1s;
+}
+#p1{
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  animation: p1an 1s;
+}
+#img1{
+  width: 36px;
+  height: 36px;
+}
+#p1-1{
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  animation: p1-1an 1s;
+}
+.rounded-navbar {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.rounded-navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.rounded-navbar li {
+  margin-right: 10px;
+}
+
+.rounded-navbar a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  color: #333333;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.rounded-navbar a:hover {
+  background-color: #dddddd;
+}
+#img2{
+  position: absolute;
+  left: 0;
+  margin-left: 10%;
+  opacity: 90%;
+  margin-top: -30%;
+  animation: img2 1s;
+}
+
+@keyframes h1an{
+  0%{transform: translateY(100%);}
+  100%{transform: translateY(0);}
+}
+@keyframes p1an{
+  0%{transform: translateX(300px);}
+  100%{transform: translateX(0);}
+}
+@keyframes p1-1an{
+  0%{transform: translate(-300px);}
+  100%{transform: translateX(0);}
+}
+@keyframes img2{
+  0%{transform: translateX(-100%);}
+  100%{transform: translateX(0);}
+}
+@keyframes bp1{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+.speech-bubble {
+  position: relative;
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-left: 33%;
+  animation: bp1 3s;
+}
+#toggleButton{
+  position: relative;
+  width: 220px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-left: 33%;
+  animation: bp1 6s;
+}
+#p2{
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+}
+.speech-bubble-more {
+  width: 200px;
+  margin-top: 50px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-left: 33%;
+  animation: bp1 9s;
+  text-align: center;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 24px;
+}
+.speech-bubble-2 {
+  position: relative;
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-left: 54%;
+  animation: bp1 7s;
+}
+#additionalText {
+  display: none;
+  position: absolute;
+  bottom: 5%;
+  left: 6.5%;
+  transform: translateX(-50%);
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  text-align: center;
+}
+.speech-bubble-1 {
+  position: relative;
+  width: 200px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  margin-left: 33%;
+  animation: bp1 5s;
+}
